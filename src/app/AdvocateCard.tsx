@@ -16,7 +16,7 @@ export function AdvocateCard({ advocate }: AdvocateCardProps) {
   } = advocate;
 
   return (
-    <div className="flex flex-col bg-white shadow-lg rounded-lg overflow-hidden mb-6 p-6 max-w-2xl">
+    <div className="flex flex-col bg-white shadow-lg rounded-lg overflow-hidden mb-6 p-6 max-w-2xl w-full">
       <div className="flex justify-between items-center">
         <div className="flex align-baseline">
           <h3 className="font-bold text-xl leading-3">
