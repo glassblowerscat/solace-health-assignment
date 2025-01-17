@@ -30,7 +30,7 @@ export function AdvocateCard({ advocate }: AdvocateCardProps) {
         {yearsOfExperience} years experience
       </p>
       <h4 className="mb-2 font-bold">Specialties</h4>
-      <div className="grid grid-cols-2 gap-4 mb-4">
+      <div className="grid grid-cols-2 gap-x-4 gap-y-2 mb-4">
         {specialties.map((specialty, index) => (
           <p key={index} className="text-gray-600 text-sm">
             {specialty}
